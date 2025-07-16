@@ -1,0 +1,34 @@
+# Bỏ file dữ liệu lớn
+generated_sensor_data.csv
+
+# Bỏ môi trường ảo Python
+venv/
+env/
+ENV/
+
+# Bỏ file log, temp
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Bỏ file output của Jupyter Notebook
+.ipynb_checkpoints/
+
+# Bỏ file cấu hình hệ thống hoặc IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Bỏ file tạm khi nén hoặc build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.zip
+
+# Firebase credentials (nếu là file cá nhân, không chia sẻ)
+firebase_config.json
+firebase_credentials.json
