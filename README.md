@@ -118,11 +118,6 @@ For questions or contributions:
 
 ---
 
-## 📌 Gợi ý nâng cấp README (ngắn)
-Nếu muốn **đẹp hơn nữa**, bạn có thể thêm:
-
-### 🚩 Badges (trên đầu)
-```md
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![License](https://img.shields.io/github/license/loiphan2202/DN-Flood-Forecast)
 
