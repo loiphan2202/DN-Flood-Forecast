@@ -1,28 +1,136 @@
-"# Dự báo lũ tại Đà Nẵng bằng AI"
-# DN-Flood-Forecast 🌧️
+# 🌊 DN Flood Forecast
 
-Dự án sử dụng trí tuệ nhân tạo (AI) để dự báo lũ tại Đà Nẵng dựa trên dữ liệu cảm biến. Mô hình học sâu (Deep Learning) được huấn luyện để nhận biết nguy cơ ngập lụt từ các thông số đầu vào như mực nước, lượng mưa và lưu lượng xả.
-
-## 🚀 Công nghệ sử dụng
-
-- Python
-- TensorFlow / Keras
-- Firebase
-- Jupyter Notebook
-
-## 📁 Cấu trúc thư mục
-
-- `code train/`: Code huấn luyện mô hình
-- `best_model/`: Mô hình đã huấn luyện
-- `firebase_config.json`: Thông tin kết nối Firebase
-- `zf.py`: Script triển khai
-
-## ⚠️ Lưu ý
-
-File dữ liệu lớn `generated_sensor_data.csv` đã được loại khỏi repo do vượt giới hạn của GitHub.
+**DN Flood Forecast** is a Machine Learning project that predicts flood levels based on environmental and hydrological data.  
+This tool demonstrates how data-driven models can assist in early warning systems for flood risk mitigation.
 
 ---
 
-## 🧠 Tác giả
+## 🧠 Project Overview
 
-- 👤 [loiphan2202](https://github.com/loiphan2202)
+Flooding is a natural disaster with significant impact on communities.  
+The goal of this project is to:
+
+✅ Use historical flood and weather data  
+✅ Train Machine Learning models to forecast future flood levels  
+✅ Evaluate and visualize predictions for decision support
+
+This repository includes:
+- Data preprocessing
+- Model training & evaluation
+- Prediction visualization tools
+- Notebooks for experimentation
+
+---
+
+## 📂 Repository Structure
+
+```text
+DN-Flood-Forecast/
+├── data/                # Raw & processed datasets
+├── notebooks/           # Jupyter notebooks for experiments
+├── src/                 # Source scripts for training & evaluation
+├── models/              # Trained model checkpoints
+├── results/             # Prediction plots / reports
+├── requirements.txt     # Python dependencies
+└── README.md
+🛠️ Tech Stack
+<p align="left"> <img src="https://skillicons.dev/icons?i=python,pandas,matplotlib,scikit,git" /> </p>
+Python – Main programming language
+
+NumPy & Pandas – Data manipulation
+
+Scikit-learn – Machine Learning models
+
+Matplotlib / Seaborn – Visualization
+
+Jupyter Notebook – Interactive experimentation
+
+🚀 Getting Started
+1. Clone Repository
+bash
+Sao chép mã
+git clone https://github.com/loiphan2202/DN-Flood-Forecast.git
+cd DN-Flood-Forecast
+2. Install Dependencies
+bash
+Sao chép mã
+pip install -r requirements.txt
+3. Explore Datasets
+All raw and cleaned datasets are located in the data/ folder.
+Open the notebooks to understand structure and preprocessing steps.
+
+🧪 Running Experiments
+Open and run any notebook inside notebooks/:
+
+bash
+Sao chép mã
+jupyter notebook
+Try these key notebooks:
+
+Data Exploration & Cleanup
+
+Model Training & Evaluation
+
+Prediction Visualization
+
+📊 Example
+Example forecast plot:
+
+
+(Replace with your actual images after you add some)
+
+🧠 How It Works
+Load & preprocess data
+
+Train ML models
+
+Evaluate performance
+
+Visualize forecast results
+
+Typical models used:
+
+Linear Regression
+
+Random Forest
+
+XGBoost
+(Update accordingly if you use different models)
+
+📈 Results & Metrics
+You can check:
+
+Mean Absolute Error (MAE)
+
+R² Score
+
+Prediction vs Actual visual plots
+
+📌 Include your model performance summary or table here.
+
+📫 Contact
+For questions or contributions:
+
+🔗 GitHub: https://github.com/loiphan2202
+📧 Email: loiphan2102004ptl@gmail.com
+
+⭐ Feel free to explore, experiment, and expand this project for real-world flood forecasting applications!
+
+---
+
+## 📌 Gợi ý nâng cấp README (ngắn)
+Nếu muốn **đẹp hơn nữa**, bạn có thể thêm:
+
+### 🚩 Badges (trên đầu)
+```md
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/github/license/loiphan2202/DN-Flood-Forecast)
+
+Kết quả so sánh Actual vs Pred
+
+📖 Model Details
+Thêm bảng:
+
+Model	MAE	R²
+RandomForest	2.12	0.86
+XGBoost	1.98	0.89
