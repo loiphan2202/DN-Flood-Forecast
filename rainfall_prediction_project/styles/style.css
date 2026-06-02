@@ -1,0 +1,21 @@
+/* Custom CSS cho Streamlit */
+.stApp {
+    background-color: #f0f2f6;
+}
+
+.css-1d391kg {
+    padding: 2rem 1rem;
+}
+
+.stMetric {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stWarning {
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+    color: #664d03;
+}

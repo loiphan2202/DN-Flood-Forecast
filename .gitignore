@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+*.h5
+*.keras
+*.hdf5
+
+# TensorFlow checkpoints
+*.ckpt
+*.ckpt.*
+checkpoint
+
+# Saved models
+best_model/
+
+# Zip files
+*.zip
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# Firebase
+firebase_credentials.json
+firebase_config.json
+
+generated_sensor_data.csv
+generated_sensor_data_1.csv
+generated_sensor_data_2022_2023.csv
+data_firebase2024_changed.csv
